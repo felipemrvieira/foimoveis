@@ -1,0 +1,225 @@
+
+#linha {
+    background-color: #463D58;
+    height: 5px;
+}
+.sempadding{
+    padding: 0;
+}
+
+.menusup{
+    padding: 1%;
+    text-align: center;
+    font-family: ;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 860px) {
+    #corpo{
+        background-image: url('bg.jpg');
+        background-size: 100%;  
+    }
+    
+    .tamanhologo{
+        max-width: 100%;
+        width: 30%;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 859px) {
+    #corpo{
+        background-image: url('bg-mobile.jpg');
+        background-size: 100%;  
+    }
+    
+    .tamanhologo{
+        max-width: 100%;
+        width: 50%;
+        padding-top: 50px;
+    }
+}
+
+#cima{
+  width: 100%; 
+}
+
+.tamanhomaximo{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.painel{
+    padding: 0% 5%;
+}
+
+.vr
+{
+  display:inline;
+  height:100%;
+  width:1px;
+  border:1px inset;
+  margin:20px;
+    border-color: white;
+}
+
+.lista {
+    padding: 2%;
+}
+
+.metade {
+    max-width: 50%;
+    width: 50%;
+}
+
+.afasta {
+    padding-top: 15%;
+}
+
+.separadorimg {
+    width: 50%;
+    
+}
+.grow{
+    -webkit-transition: .2s ease-in;
+	transition: .2s ease-in;
+}
+.grow:hover{
+    -webkit-transition: .2s ease-in;
+	transition: .2s ease-in;
+
+}
+
+
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+ 
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        width:100%;
+        padding:10px 18px;
+        
+    }
+}
+ 
+.menu ul {
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+}
+ 
+.menu li {
+    margin:0px 50px 0px 0px;
+    
+    list-style:none;
+    font-size:17px;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+ 
+.menu a {
+    color:#777;
+    transition:color linear 0.15s;
+}
+ 
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color: #463D58;
+}
+ 
+
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}
+ 
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+ 
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:300%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:0px;
+        background:#272231;
+        z-index: 10;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+        display:block;
+        color: #9C9A9A;
+    }
+ 
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:0;
+        background:#463D58;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#463D58;
+    }
+ 
+    .search-form {
+        margin:12px 0px 0px 20px;
+        float:left;
+    }
+ 
+    .search-form input {
+        box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
+    }
+}
+
+

@@ -1,0 +1,56 @@
+<!--      
+        <div class="col-md-12 nopad">
+            <div class="">
+                <div class="col-md-6 nopad">
+                    <img class="imganuncio tamanhomaximo afastadorelemento" src="img/curva1.png" alt="portrait">
+                    
+                <div class="legenda2">
+                    <div class="col-xs-6 col-sm-6 col-md-6 nopad">
+                        
+                        <div class="txtexp" >
+                            <h5><b>Investimento Certo</b></h5>
+
+                            <p>Além do pagamento facilitado durante toda a obra, a região ainda encontra-se em constante desenvolvimento. Perfeito para quem pretende investir.</p>
+                        </div>
+
+                        <div class="txtexp interno">
+                            <h4><b>Investimento Certo1</b></h4>
+                            <img src="img/coolblue.png">
+                        </div>
+                    
+                    </div><!--coluna 6-->
+                    
+                    <div class="col-xs-6 col-sm-6 col-md-6 nopad afastador">
+                        
+                        <div class="txtexp branco">
+                            <h4><b>Investimento Certo</b></h4>
+                            <img src="img/coolgrey.png">
+                        </div>
+                        
+                        <div class="txtexp afastador" >
+                            <h5><b>Investimento Certo</b></h5>
+
+                            <p>Além do pagamento facilitado durante toda a obra, a região ainda encontra-se em constante desenvolvimento. Perfeito para quem pretende investir.</p>
+                        </div>
+                    
+                    </div><!--coluna 3-->
+                    
+                    
+            
+                    
+                </div><!--legenda-->    
+                    
+                    
+                </div><!--coluna 6-->
+                
+                
+                <div class="col-md-6 nopad">
+                    <img class="imganuncio tamanhomaximo afastadorelemento" src="img/curva2.png" alt="portrait">
+                </div>
+                
+               
+               
+                
+            </div><!--afastador-->
+        </div><!--coluna 12-->
+                -->
