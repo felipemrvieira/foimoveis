@@ -324,10 +324,29 @@ google.maps.event.addDomListener(window, 'load', initialize);
                         <hr class="linhainterna">
                     </div>
                     
-                    <div class="col-md-12" style=" <?php if($imovel['lat'] == null) echo'display: none;'; ?> ">
-                        <a class="" href="#googleMap">
-                            <img class="img-responsive" src="img/vermapa.png">
-                        </a>
+                    <div class="col-md-12" >
+                        
+                        <div class="col-md-6" style=" <?php if($imovel['lat'] == null) echo'display: none;'; ?> ">
+                            <a class="" href="#googleMap">
+                                <img class="img-responsive" src="img/vermapa.png">
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            
+                            <?php
+                            $array_telefones = exibeTelefones($conexao, $_GET['id']);
+                            foreach($array_telefones as $telefone) { ?>
+                            
+                            <div id="areatelefones" style=" <?php if($telefone['tel1'] == 'xxx' and $telefone['tel2'] == 'xxx') echo'display: none;'; ?> ">
+                                <p id="titulotelefones">Telefones:</p>
+                                <p id="telefones" style=" <?php if($telefone['tel1'] == 'xxx') echo'display: none;'; ?> "><?=$telefone['tel1'];?></p>
+                                <p id="telefones" style=" <?php if($telefone['tel2'] == 'xxx') echo'display: none;'; ?> "><?=$telefone['tel2'];?></p>
+                            </div>
+                            
+                            <?php }?>
+                            
+                        </div>
                         
                     </div>
                 </div>

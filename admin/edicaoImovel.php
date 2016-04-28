@@ -27,9 +27,14 @@ include 'header.php'?>
             
 <h2>Editar Imóvel</h2>
             <div class="col-md-12">
-                  <a href="edicaoImagens.php?id=<?=$imovel['id_imovel']?>">
-                    Editar imagens
-                  </a>
+                <a href="edicaoImagens.php?id=<?=$imovel['id_imovel']?>">
+                Editar imagens
+                </a>
+                <br>
+                <br>
+                <a href="edicaoTelefones.php?id=<?=$imovel['id_imovel']?>">
+                    Editar telefones
+                </a>
             </div>
   <form action="logica/editaImovel.php?id=<?=$imovel['id_imovel']?>" method="post" class="form-horizontal" role="form">
 

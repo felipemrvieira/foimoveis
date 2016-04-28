@@ -1371,3 +1371,19 @@ a:active {
 #area_linha_video {
     height: 10px;
 }
+
+#telefones{
+        font-family: Gotham-Light;
+        line-height: 5px;
+    
+        
+    }
+
+#titulotelefones {
+    line-height: 5px;
+    font-size: 15px;
+}
+
+#areatelefones {
+    margin-top: 14px;
+}

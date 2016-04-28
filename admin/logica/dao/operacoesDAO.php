@@ -187,6 +187,17 @@ function mudaImagem($id, $nome, $campo, $conexao){
     return mysqli_insert_id($conexao);
     } 
 
+
+function mudaTelefone($id, $campo, $tel, $conexao){
+       
+   echo $query = "update telefones set 
+                                {$campo} = '{$tel}'
+                                where id_imovel='{$id}'";    
+    
+    $resultado = mysqli_query($conexao, $query);
+    return mysqli_insert_id($conexao);
+} 
+
 function excluiImagem($id, $campo, $conexao){
     
     
@@ -241,6 +252,16 @@ function listaImoveis($conexao){
         array_push($array_imoveis, $imovel);
     }
     return $array_imoveis;
+}
+
+function exibeTelefones($conexao, $id){
+    $array_telefones = array();
+    $resultado = mysqli_query($conexao, "select * from telefones where id_imovel = '{$id}' ");
+
+    while($telefone = mysqli_fetch_assoc($resultado)){
+        array_push($array_telefones, $telefone);
+    }
+    return $array_telefones;
 }
 
 function buscaImoveis($imovel, $conexao){
