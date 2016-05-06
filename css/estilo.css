@@ -1387,3 +1387,26 @@ a:active {
 #areatelefones {
     margin-top: 14px;
 }
+
+#tel-info-side {
+     border-color: #ffc934;
+    font-family: Gotham-Light;
+    color: white;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 10%;
+    margin: 15px;
+}
+
+#tel-info {
+    font-size: 240%;
+    font-family: gotham;
+    text-align: left;
+    line-height: 31px;
+    font-weight: bolder;
+}
+
+#informacoes {
+    text-align: left;
+}

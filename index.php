@@ -121,10 +121,17 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         
         <img class="" id="elementofiltro" src="img/elemento.png">
         
+        <div class="center-block" id="tel-info-side">
+                <div id="informacoes">+Informações</div>
+                <div id="tel-info">9 9948.4391</div>
+        </div>
+            
+            <hr>
+        
     <form action="index.php?busca" method="post">
         <div class="center-block" id="elementofiltro2">
             
-           
+          
             <div class="col-xs-2 col-md-2 valor sempadding">
                 Valor:
             </div>

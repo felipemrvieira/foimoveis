@@ -109,6 +109,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
         
         <img class="" id="elementofiltro" src="img/elemento.png">
         
+        <div class="center-block" id="tel-info-side">
+                <div id="informacoes">+Informações</div>
+                <div id="tel-info">9 9948.4391</div>
+        </div>
+        
     <form action="index.php?busca" method="post">
         <div class="center-block" id="elementofiltro2">
             
